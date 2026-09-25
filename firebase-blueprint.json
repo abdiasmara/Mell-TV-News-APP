@@ -1,0 +1,46 @@
+{
+  "entities": {
+    "Article": {
+      "title": "Article",
+      "description": "News article entity",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "maxLength": 128 },
+        "title": { "type": "string", "maxLength": 300 },
+        "category": { "type": "string", "maxLength": 100 },
+        "snippet": { "type": "string", "maxLength": 500 },
+        "content": { "type": "string", "maxLength": 50000 },
+        "author": { "type": "string", "maxLength": 100 },
+        "date": { "type": "string", "maxLength": 100 },
+        "imageUrl": { "type": "string", "maxLength": 500 },
+        "videoUrl": { "type": "string", "maxLength": 500 },
+        "isBreaking": { "type": "boolean" },
+        "isFeatured": { "type": "boolean" },
+        "source": { "type": "string", "maxLength": 100 },
+        "url": { "type": "string", "maxLength": 500 },
+        "readTimeMinutes": { "type": "number" }
+      },
+      "required": ["id", "title", "category", "content", "date"]
+    },
+    "FCMToken": {
+      "title": "FCMToken",
+      "description": "Firebase Cloud Messaging token for push notifications",
+      "type": "object",
+      "properties": {
+        "token": { "type": "string", "maxLength": 256 },
+        "createdAt": { "type": "string", "maxLength": 100 }
+      },
+      "required": ["token"]
+    }
+  },
+  "firestore": {
+    "/articles/{articleId}": {
+      "schema": "Article",
+      "description": "Collection of all news articles and breaking news"
+    },
+    "/fcm_tokens/{tokenId}": {
+      "schema": "FCMToken",
+      "description": "Collection of registered FCM push notification tokens"
+    }
+  }
+}

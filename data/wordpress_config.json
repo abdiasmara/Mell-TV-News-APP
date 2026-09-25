@@ -1,0 +1,9 @@
+{
+  "wpAdminUrl": "https://mellotvnews.com/wp-admin/",
+  "wpApiUrl": "https://mellotvnews.com/wp-json/wp/v2/posts",
+  "wpUsername": "admin",
+  "wpPassword": "Risaliwan@26",
+  "autoSyncEnabled": true,
+  "status": "active",
+  "lastSyncAt": "2026-09-23T12:00:00.000Z"
+}

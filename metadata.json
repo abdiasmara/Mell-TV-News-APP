@@ -1,0 +1,6 @@
+{
+  "name": "Mello Portal ID",
+  "description": "Portal berita resmi Mello TV News menyajikan liputan terkini, siaran langsung, dan berita terpercaya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

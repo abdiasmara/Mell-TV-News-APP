@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="redBadge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  
+  <!-- Outer Ring -->
+  <rect x="24" y="24" width="464" height="464" rx="90" fill="none" stroke="url(#goldAccent)" stroke-width="8" opacity="0.4"/>
+
+  <!-- Red Center Badge -->
+  <rect x="76" y="76" width="360" height="360" rx="72" fill="url(#redBadge)"/>
+
+  <!-- TV Screen Grid Lines -->
+  <path d="M 120 200 H 392 M 120 256 H 392 M 120 312 H 392" stroke="#ffffff" stroke-width="4" opacity="0.15"/>
+
+  <!-- Play Symbol & TV Antenna / M shape -->
+  <path d="M 190 170 L 340 256 L 190 342 Z" fill="#ffffff" filter="drop-shadow(0px 8px 16px rgba(0,0,0,0.4))"/>
+
+  <!-- LIVE Dot & Ring -->
+  <circle cx="390" cy="120" r="18" fill="#f59e0b"/>
+  <circle cx="390" cy="120" r="28" fill="none" stroke="#f59e0b" stroke-width="4" opacity="0.6"/>
+
+  <!-- Text "MELLO TV" -->
+  <text x="256" y="415" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="4">MELLO TV</text>
+  <text x="256" y="445" text-anchor="middle" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#f59e0b" letter-spacing="6">NEWS PORTAL</text>
+</svg>

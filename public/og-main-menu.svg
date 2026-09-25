@@ -1,0 +1,217 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050811" />
+      <stop offset="50%" stop-color="#0b1329" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <linearGradient id="redGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+
+    <linearGradient id="igGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#ec4899" />
+      <stop offset="100%" stop-color="#8b5cf6" />
+    </linearGradient>
+
+    <linearGradient id="fbGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <radialGradient id="redGlow" cx="15%" cy="25%" r="40%">
+      <stop offset="0%" stop-color="#dc2626" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#dc2626" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="blueGlow" cx="85%" cy="30%" r="45%">
+      <stop offset="0%" stop-color="#2563eb" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="greenGlow" cx="50%" cy="90%" r="35%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Background Layer -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Ambient Glows -->
+  <rect width="1200" height="630" fill="url(#redGlow)" />
+  <rect width="1200" height="630" fill="url(#blueGlow)" />
+  <rect width="1200" height="630" fill="url(#greenGlow)" />
+
+  <!-- Grid Tech Lines -->
+  <g stroke="#334155" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="80" x2="1200" y2="80" />
+    <line x1="0" y1="550" x2="1200" y2="550" />
+    <line x1="80" y1="0" x2="80" y2="630" />
+    <line x1="1120" y1="0" x2="1120" y2="630" />
+  </g>
+
+  <!-- TOP HEADER BAR -->
+  <g transform="translate(80, 45)">
+    <!-- Brand Logo Icon -->
+    <rect x="0" y="0" width="54" height="54" rx="14" fill="#dc2626" filter="url(#shadow)" />
+    <text x="27" y="38" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="30" fill="#ffffff" text-anchor="middle">M</text>
+
+    <!-- Brand Name Text -->
+    <text x="68" y="27" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="24" fill="#ffffff" letter-spacing="1">
+      MELLO TV <tspan fill="#ef4444">NEWS</tspan>
+    </text>
+    <text x="68" y="47" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" fill="#f59e0b" letter-spacing="2">
+      PORTAL MEDIA TERPERCAYA · MELLO PORTAL ID
+    </text>
+
+    <!-- Live Indicator & Verification Badge -->
+    <g transform="translate(810, 8)">
+      <rect x="0" y="0" width="105" height="34" rx="17" fill="#450a0a" stroke="#b91c1c" stroke-width="1.5" />
+      <circle cx="18" cy="17" r="5" fill="#ef4444" />
+      <text x="56" y="23" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="12" fill="#fca5a5" text-anchor="middle" letter-spacing="1.5">LIVE 24/7</text>
+    </g>
+
+    <g transform="translate(930, 8)">
+      <rect x="0" y="0" width="110" height="34" rx="17" fill="#064e3b" stroke="#059669" stroke-width="1.5" />
+      <circle cx="18" cy="17" r="5" fill="#10b981" />
+      <text x="58" y="23" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="12" fill="#6ee7b7" text-anchor="middle">VERIFIED</text>
+    </g>
+  </g>
+
+  <!-- MAIN HEADLINE & HERO CALLOUT -->
+  <g transform="translate(80, 140)">
+    <rect x="0" y="0" width="220" height="28" rx="8" fill="#1e293b" stroke="#334155" />
+    <text x="110" y="19" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="11" fill="#38bdf8" text-anchor="middle" letter-spacing="1">
+      ★ MENU UTAMA RESMI REDAKSI
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="70" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#ffffff" letter-spacing="-0.5">
+      Mello TV News &amp; Portal Media Terpercaya
+    </text>
+    <!-- Subtitle -->
+    <text x="0" y="106" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="19" fill="#94a3b8">
+      Pusat Berita Terkini, Siaran Streaming TV Nasional, dan Hub 4 Media Sosial Resmi Indonesia.
+    </text>
+  </g>
+
+  <!-- 4 SOCIAL MEDIA PROFILES GRID (MAIN MENU SHOWCASE) -->
+  <g transform="translate(80, 275)">
+    <!-- 1. YOUTUBE CARD -->
+    <g transform="translate(0, 0)" filter="url(#shadow)">
+      <rect width="245" height="230" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <rect width="245" height="6" rx="3" fill="#dc2626" />
+      
+      <!-- YouTube Icon Circle -->
+      <rect x="22" y="24" width="50" height="50" rx="14" fill="#dc2626" />
+      <polygon points="43,41 43,57 57,49" fill="#ffffff" />
+
+      <!-- Text Details -->
+      <text x="22" y="105" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#ffffff">YouTube</text>
+      <text x="22" y="128" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#ef4444">@mellotv-news</text>
+      <text x="22" y="150" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#94a3b8">340K+ Subscriber</text>
+      <text x="22" y="172" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="11" fill="#64748b">Siaran Langsung &amp; Liputan 24 Jam</text>
+
+      <rect x="22" y="190" width="201" height="26" rx="8" fill="#450a0a" />
+      <text x="122" y="207" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="10" fill="#fca5a5" text-anchor="middle">LIVE BROADCAST HD</text>
+    </g>
+
+    <!-- 2. INSTAGRAM CARD -->
+    <g transform="translate(265, 0)" filter="url(#shadow)">
+      <rect width="245" height="230" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <rect width="245" height="6" rx="3" fill="url(#igGrad)" />
+
+      <!-- Instagram Icon Circle -->
+      <rect x="22" y="24" width="50" height="50" rx="14" fill="url(#igGrad)" />
+      <!-- Camera glyph -->
+      <rect x="36" y="38" width="22" height="22" rx="6" fill="none" stroke="#ffffff" stroke-width="2.5" />
+      <circle cx="47" cy="49" r="5" fill="none" stroke="#ffffff" stroke-width="2.5" />
+      <circle cx="53" cy="43" r="1.5" fill="#ffffff" />
+
+      <!-- Text Details -->
+      <text x="22" y="105" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#ffffff">Instagram</text>
+      <text x="22" y="128" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#f472b6">@mellotvnews</text>
+      <text x="22" y="150" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#94a3b8">98K+ Pengikut</text>
+      <text x="22" y="172" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="11" fill="#64748b">Infografis &amp; Momen Redaksi</text>
+
+      <rect x="22" y="190" width="201" height="26" rx="8" fill="#500724" />
+      <text x="122" y="207" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="10" fill="#fbcfe8" text-anchor="middle">OFFICIAL INSTAGRAM</text>
+    </g>
+
+    <!-- 3. FACEBOOK CARD -->
+    <g transform="translate(530, 0)" filter="url(#shadow)">
+      <rect width="245" height="230" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <rect width="245" height="6" rx="3" fill="#2563eb" />
+
+      <!-- Facebook Icon Circle -->
+      <rect x="22" y="24" width="50" height="50" rx="14" fill="#2563eb" />
+      <text x="47" y="59" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="32" fill="#ffffff" text-anchor="middle">f</text>
+
+      <!-- Text Details -->
+      <text x="22" y="105" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#ffffff">Facebook</text>
+      <text x="22" y="128" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#60a5fa">@mellotvnews</text>
+      <text x="22" y="150" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#94a3b8">125K+ Pengikut</text>
+      <text x="22" y="172" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="11" fill="#64748b">Diskusi Publik &amp; Berita Warga</text>
+
+      <rect x="22" y="190" width="201" height="26" rx="8" fill="#172554" />
+      <text x="122" y="207" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="10" fill="#bfdbfe" text-anchor="middle">KOMUNITAS PUBLIK</text>
+    </g>
+
+    <!-- 4. TIKTOK CARD -->
+    <g transform="translate(795, 0)" filter="url(#shadow)">
+      <rect width="245" height="230" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.5" />
+      <rect width="245" height="6" rx="3" fill="#f59e0b" />
+
+      <!-- TikTok Icon Circle -->
+      <rect x="22" y="24" width="50" height="50" rx="14" fill="#020617" stroke="#475569" stroke-width="1.5" />
+      <text x="47" y="58" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="26" fill="#ffffff" text-anchor="middle">♪</text>
+
+      <!-- Text Details -->
+      <text x="22" y="105" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#ffffff">TikTok</text>
+      <text x="22" y="128" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#fbbf24">@mellotvnews</text>
+      <text x="22" y="150" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="12" fill="#94a3b8">210K+ Pengikut</text>
+      <text x="22" y="172" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="11" fill="#64748b">Rangkuman Berita Cepat 60 Detik</text>
+
+      <rect x="22" y="190" width="201" height="26" rx="8" fill="#451a03" />
+      <text x="122" y="207" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="10" fill="#fde68a" text-anchor="middle">BERITA VIRAL &amp; CEPAT</text>
+    </g>
+  </g>
+
+  <!-- BOTTOM FOOTER INFO BAR -->
+  <g transform="translate(80, 560)">
+    <!-- WhatsApp Hotline -->
+    <rect x="0" y="0" width="310" height="42" rx="12" fill="#064e3b" stroke="#059669" stroke-width="1" />
+    <text x="20" y="26" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#a7f3d0">
+      WhatsApp Redaksi: +62 813-4253-0200
+    </text>
+
+    <!-- Official Website & App URL -->
+    <g transform="translate(330, 0)">
+      <rect x="0" y="0" width="370" height="42" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" />
+      <text x="20" y="26" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="13" fill="#cbd5e1">
+        🌐 mellotvnews.com · mello-portal-id.ai.studio
+      </text>
+    </g>
+
+    <!-- Indonesian Press Law Badge -->
+    <g transform="translate(720, 0)">
+      <rect x="0" y="0" width="320" height="42" rx="12" fill="#1e1b4b" stroke="#4338ca" stroke-width="1" />
+      <text x="20" y="26" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" fill="#c7d2fe">
+        ⚖️ Terverifikasi UU Pers No. 40/1999
+      </text>
+    </g>
+  </g>
+</svg>

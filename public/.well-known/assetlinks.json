@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.mellotv.news",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7D:0F:52:AB:FC:B5:43:86:13:8B:6B:7E:8C:38:3F:8A:2B:66:81:4A:E3:68:57:9B:4F:92:F8:E7:E8"
+      ]
+    }
+  }
+]

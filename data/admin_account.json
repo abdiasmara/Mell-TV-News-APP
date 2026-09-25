@@ -1,0 +1,39 @@
+{
+  "admins": [
+    {
+      "id": "admin-server",
+      "username": "@asmaraabdi56",
+      "aliases": [
+        "@asmaraabdi56",
+        "asmaraabdi56",
+        "asmaraabdi56@gmail.com"
+      ],
+      "email": "asmaraabdi56@gmail.com",
+      "name": "Admin Server Utama (@asmaraabdi56)",
+      "role": "admin",
+      "passwordHash": "bb7f48be50cd0beae0a2f921ed0758431830b1994acef0f368776243302a260e",
+      "securityLevel": "maximum",
+      "twoFactorEnabled": true,
+      "emailVerified": true,
+      "updatedAt": "2026-09-23T11:42:00.000Z"
+    },
+    {
+      "id": "admin-makassar",
+      "username": "admin",
+      "aliases": [
+        "admin",
+        "@admin",
+        "makassar12",
+        "@makassar12"
+      ],
+      "email": "makassar12@mellotvnews.com",
+      "name": "Admin Tambahan (@makassar12)",
+      "role": "admin",
+      "passwordHash": "55283a360214c9acadc5407ca9b3d109cd8d023f2bcacf62b17514e767279547",
+      "securityLevel": "standard",
+      "twoFactorEnabled": false,
+      "emailVerified": true,
+      "updatedAt": "2026-09-23T11:42:00.000Z"
+    }
+  ]
+}

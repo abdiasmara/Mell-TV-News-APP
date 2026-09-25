@@ -1,0 +1,30 @@
+{
+  "youtube": {
+    "handle": "@mellotv-news",
+    "url": "https://youtube.com/@mellotv-news",
+    "subscribers": "340K Subscriber",
+    "liveStreamEmbedUrl": "https://www.youtube.com/embed/live_stream?channel=mellotv-news"
+  },
+  "instagram": {
+    "handle": "@mellotvnews",
+    "url": "https://instagram.com/mellotvnews",
+    "followers": "98K Pengikut"
+  },
+  "facebook": {
+    "handle": "@mellotvnews",
+    "url": "https://facebook.com/mellotvnews",
+    "followers": "125K Pengikut"
+  },
+  "tiktok": {
+    "handle": "@mellotvnews",
+    "url": "https://tiktok.com/@mellotvnews",
+    "followers": "210K Pengikut"
+  },
+  "whatsapp": {
+    "number": "6281342530200",
+    "displayNumber": "+62 813-4253-0200",
+    "channelUrl": "https://whatsapp.com/channel/0029VaMelloTVNews",
+    "members": "185K Anggota Channel",
+    "defaultMessage": "Halo Redaksi Mello TV News, saya ingin menyampaikan informasi / laporan berita / kabar warga..."
+  }
+}

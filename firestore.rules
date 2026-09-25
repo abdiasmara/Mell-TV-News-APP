@@ -1,0 +1,38 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function isValidArticle(data) {
+      return data.keys().hasAll(['id', 'title', 'category', 'content', 'date']) &&
+             data.keys().hasOnly(['id', 'title', 'category', 'snippet', 'content', 'author', 'date', 'imageUrl', 'videoUrl', 'isBreaking', 'isFeatured', 'source', 'url', 'readTimeMinutes']) &&
+             data.id is string && data.id.size() <= 128 &&
+             data.title is string && data.title.size() <= 300 &&
+             data.category is string && data.category.size() <= 100 &&
+             data.content is string && data.content.size() <= 50000 &&
+             data.date is string && data.date.size() <= 100;
+    }
+
+    match /articles/{articleId} {
+      allow read: if true;
+      allow create, update: if isValidId(articleId) && isValidArticle(request.resource.data);
+      allow delete: if true;
+    }
+
+    function isValidFCMToken(data) {
+      return data.keys().hasAll(['token']) &&
+             data.keys().hasOnly(['token', 'createdAt']) &&
+             data.token is string && data.token.size() <= 256;
+    }
+
+    match /fcm_tokens/{tokenId} {
+      allow read, write: if true;
+    }
+  }
+}
